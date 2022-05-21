@@ -185,5 +185,5 @@ bar {
         status_command i3status
 }
 
-# Set correct display resolution
+# Fix display resolution on Hyper-V vm
 exec_always xrandr --output Virtual-1 --mode 1920x1080
