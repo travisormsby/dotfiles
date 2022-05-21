@@ -187,3 +187,6 @@ bar {
 
 # Fix display resolution on Hyper-V vm
 exec_always xrandr --output Virtual-1 --mode 1920x1080
+
+# Display wallpaper
+exec_always feh --bg-fill /home/travis/Pictures/wallpaper.png
