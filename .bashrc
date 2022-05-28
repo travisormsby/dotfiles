@@ -6,6 +6,7 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
+alias ll='ls -lahF'
 PS1='[\u@\h \W]\$ '
 
 # alias to manage dotfiles
