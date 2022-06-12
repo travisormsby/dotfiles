@@ -5,7 +5,7 @@ Information pulled from this post: https://www.atlassian.com/git/tutorials/dotfi
 
 From the $HOME directory, clone the repo:
 
-  $ git clone --bare <git-repo-url> $HOME/.dotfiles
+  $ git clone --bare [git-repo-url] $HOME/.dotfiles
 
 Set a git alias to use the $HOME directory as the working tree
 
