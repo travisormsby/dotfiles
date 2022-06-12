@@ -222,4 +222,3 @@ for_window[class="Code"] move to workspace $ws2
 
 # Compositor
 exec_always picom -f
-
