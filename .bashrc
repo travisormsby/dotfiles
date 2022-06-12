@@ -30,4 +30,4 @@ alias ..='cd ..'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # customize prompt
-PS1='\[\e[01;31m\]\u@\h\[\e[00m\]:\[\e[01;34m\]\w \[\e[00m\]\$ '
+PS1='\[\e[01;32m\]\u@\h\[\e[00m\]:\[\e[01;34m\]\w \[\e[00m\]\$ '
