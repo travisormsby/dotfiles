@@ -12,4 +12,5 @@ Set a git alias to use the $HOME directory as the working tree
   $ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 Do not show untracked files (prevent cluttering git status)
+  
   $ config config status.showUntrackedFiles no
