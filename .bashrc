@@ -16,7 +16,6 @@ alias lt='ls -ltr'
 alias lm='ls -al | more'
 
 # file management aliases
-alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 alias mkdir='mkdir -p'
@@ -30,4 +29,8 @@ alias ..='cd ..'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # customize prompt
-PS1='\[\e[01;31m\]\u@\h\[\e[00m\]:\[\e[01;34m\]\w \[\e[00m\]\$ '
+USER='\[\e[01;31m\]\u@\h\'
+SEPARATOR='[\e[00m\]:'
+DIRECTORY='\[\e[01;34m\]\w'
+PROMPT='\[\e[00m\]\$ '
+PS1=${USER}${SEPARATOR}${DIRECTORY}${PROMPT}
